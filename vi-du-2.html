@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Gap - Ví dụ 2</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 30px 10px; /* 30px cho hàng, 10px cho cột */
+        }
+        .grid-container div {
+            background-color: lightgreen;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div>Ô 1</div>
+        <div>Ô 2</div>
+        <div>Ô 3</div>
+        <div>Ô 4</div>
+        <div>Ô 5</div>
+        <div>Ô 6</div>
+    </div>
+</body>
+</html>
